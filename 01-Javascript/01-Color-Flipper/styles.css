@@ -1,16 +1,4 @@
-/* body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-
-.container {
-    text-align: center;
-       
-}
- */
+/* styles.css */
 
 body {
     display: flex;
@@ -21,7 +9,7 @@ body {
 }
 
 .container {
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
     text-align: center;
     background-color: rgb(9, 160, 220);
@@ -32,7 +20,7 @@ body {
     color: white;
     padding: 15px;
     border-radius: 5px;
-    font-size: 20   px;
+    font-size: 20px;
 }
 
 .container__button {
@@ -41,5 +29,29 @@ body {
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;
-    border: solid 0;
+    border: none;
+}
+
+.container__button:hover {
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container__paragraph {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .container__button {
+        padding: 10px;
+        font-size: 16px;
+    }
 }
