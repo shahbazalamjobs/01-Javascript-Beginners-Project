@@ -3,7 +3,7 @@
 ![image](https://github.com/shahbazalamjobs/01-Javascript-Beginners-Project/assets/125631878/e33684a8-2d7b-4d1f-8308-bcdfa5bcd0ce)
 
 
-# Interview Questions
+## Interview Questions
 
 
 Q1. Why we put JavaScript files just before the closing `</body>` tag
