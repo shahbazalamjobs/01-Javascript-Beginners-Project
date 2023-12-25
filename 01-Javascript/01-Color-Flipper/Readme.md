@@ -15,5 +15,5 @@ Q1. Why we put JavaScript files just before the closing `</body>` tag
 - Dependency on DOM Elements: Placing scripts at the end ensures that, by the time the script is executed, the DOM (Document Object Model) elements above it have been parsed. If your JavaScript relies on manipulating or interacting with DOM elements, this arrangement prevents issues related to elements not being available when the script runs.
 
 
-Q2. 
+
 
