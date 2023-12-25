@@ -17,17 +17,22 @@ Q1. Why we put JavaScript files just before the closing `</body>` tag
 
 Q2. Basic Animation 
 ```js
+.button:hover {
+    color: blue;
 
+    /* button animation */
     transform: scale(1.05);
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 1s, transform 0.3s, box-shadow 0.3s;
+}
 
 /*
-   Add a box shadow to the element with the following properties:
-   - Horizontal offset: 0
-   - Vertical offset: 5px (creates a slight lift)
-   - Blur radius: 8px (provides a soft and spread-out shadow)
-   - Color: RGBA black with 30% opacity for a subtle and translucent shadow effect.
-   - Apply a slight scale transformation to the element, increasing its size by 5% for zoom effect.
+    1. Apply a slight scale transformation to the element, increasing its size by 5% for zoom effect.
+    2. Add a box shadow to the element with the following properties:
+       - Horizontal offset: 0
+       - Vertical offset: 5px (creates a slight lift)
+       - Blur radius: 8px (provides a soft and spread-out shadow)
+       - Color: RGBA black with 30% opacity for a subtle and translucent shadow effect.
+    3. It controls the speed of these property changes
 */
 ```
