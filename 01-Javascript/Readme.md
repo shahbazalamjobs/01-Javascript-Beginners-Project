@@ -1,7 +1,7 @@
 
 # Important Concepts
 
-Center a container inside the body using CSS. Here are some common methods:
+# Q1. Center a container inside the body using CSS. Here are some common methods:
 
 1. **Flexbox:**
    ```css
@@ -71,3 +71,6 @@ Center a container inside the body using CSS. Here are some common methods:
    }
    ```
 
+---
+
+# Q2. 
