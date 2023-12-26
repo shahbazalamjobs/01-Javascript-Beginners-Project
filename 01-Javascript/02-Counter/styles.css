@@ -21,6 +21,7 @@ body {
     padding: 0.5rem 1rem;
     border: 8px solid rgb(1, 116, 174);
     border-radius: 3px;
+    width: 60%;
 }
 
 
@@ -81,31 +82,21 @@ body {
     background-color: #074f8a;
 }
 
-/* Optimize responsive media queries */
+/* Optimized responsive media queries */
 
-@media (min-width: 1024px) {
-    .counter__container {
-        width: 50%;
-    }
-}
-
-@media (max-width: 1023px) and (min-width: 601px) {
-    .counter__container {
-        width: 60%;
-    }
-}
 
 @media (max-width: 600px) {
     .counter__container {
-        width: 90%;
+        width: 80%;
     }
 
     .button__container {
         flex-direction: column;
+        padding: 0.5rem;
     }
 
     .button {
-        margin: 0.5rem 0;
+        margin: 0.5rem ;
     }
 }
 
