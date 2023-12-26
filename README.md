@@ -3,5 +3,5 @@
 | Project Name    | URL                            |
 |-----------------|-------------------------------|
 | Color Flipper   | [https://shahbazalamjobs.github.io/Colour-Flipper/](https://shahbazalamjobs.github.io/Colour-Flipper/) |
-| Project B       | [Project B](http://projectb.com) |
+| Counter         | [https://shahbazalamjobs.github.io/Counter-Proj/](https://shahbazalamjobs.github.io/Counter-Proj/) |
 | Project C       | [Project C](http://projectc.com) |
