@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.counter__container {
+    background-color: #3498db;
+    padding: 0.5rem 1rem;
+    border: 8px solid rgb(1, 116, 174);
+    border-radius: 3px;
+}
+
+
+.counter__content {
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    font-size: 3rem;
+
+}
+
+.counter__value {
+    margin: 1rem;
+    padding: 0.1rem 0.2rem;
+    font-size: 6rem;
+    border: dashed 2px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.802);
+}
+
+
+.button__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+}
+
+.button {
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.counter__increase {
+    background-color: #09c10f;
+}
+
+.counter__decrease {
+    background-color: #f44336;
+}
+
+.counter__reset {
+    background-color: #074f8a;
+}
+
+/* Optimize responsive media queries */
+
+@media (min-width: 1024px) {
+    .counter__container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 601px) {
+    .counter__container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .counter__container {
+        width: 90%;
+    }
+
+    .button__container {
+        flex-direction: column;
+    }
+
+    .button {
+        margin: 0.5rem 0;
+    }
+}
+
+
+/* alternate media query */
+/* 
+@media only screen and (max-width: 400px) {
+    .counter__container {
+        max-width: 20rem;
+        padding: 0.5rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .counter__value {
+        font-size: 6rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        margin: 0.3rem;
+        padding: 0.4rem;
+    }
+} */
