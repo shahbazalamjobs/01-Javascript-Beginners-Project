@@ -13,8 +13,7 @@
 Live Link: [https://shahbazalamjobs.github.io/Sidebar/](https://shahbazalamjobs.github.io/Sidebar/)
 
 ---
-
-Certainly! Let's break down the provided JavaScript code:
+### Js main logic
 
 1. **Bars Icon Click Event:**
    ```javascript
@@ -46,3 +45,37 @@ Certainly! Let's break down the provided JavaScript code:
    - Inside the condition, `centerNav.classList.remove('show')` is executed, removing the 'show' class from `centerNav`. This ensures that clicking outside the bars icon hides the center-aligned navigation menu.
 
 In summary, these event listeners work together to toggle the visibility of the center-aligned navigation menu when clicking the bars icon and hide the menu when clicking outside the icon. The use of `stopPropagation()` prevents unintended interactions with the body click event.
+
+---
+
+
+### Css logic of icon inside input field
+
+```css
+/* Relative positioning for the search container */
+.navbar__search {
+    position: relative;
+}
+
+/* Placing search icon inside input field */
+.search-icon {
+    padding-right: 4px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+```
+
+1. **Relative Positioning for Search Container:**
+   - The `.navbar__search` class has `position: relative;`. This means that any child elements with `position: absolute;` will be positioned relative to this container.
+
+2. **Placing Search Icon Inside Input Field:**
+   - The `.search-icon` class is applied to the search icon.
+   - `padding-right: 4px;`: Adds some padding to the right of the icon to create space.
+   - `position: absolute;`: Takes the icon out of the normal flow of the document and positions it relative to its nearest positioned ancestor, which is the element with `position: relative;` (`.navbar__search` in this case).
+   - `top: 50%;`: Positions the top of the icon at 50% of the height of its containing element (`.navbar__search`), effectively centering it vertically.
+   - `right: 10px;`: Positions the right edge of the icon 10 pixels from the right edge of its containing element.
+   - `transform: translateY(-50%);`: Adjusts the vertical position of the icon by moving it up by 50% of its own height. This ensures perfect vertical centering within the `.navbar__search` container.
+   - `color: #999;`: Sets the color of the icon to a light gray color (#999).
