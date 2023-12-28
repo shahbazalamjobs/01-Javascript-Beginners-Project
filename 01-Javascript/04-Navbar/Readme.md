@@ -13,7 +13,7 @@
 Live Link: [https://shahbazalamjobs.github.io/Sidebar/](https://shahbazalamjobs.github.io/Sidebar/)
 
 ---
-### Js main logic
+### JS main logic
 
 1. **Bars Icon Click Event:**
    ```javascript
@@ -49,7 +49,7 @@ In summary, these event listeners work together to toggle the visibility of the 
 ---
 
 
-### Css logic of icon inside input field
+### CSS logic of icon inside input field
 
 ```css
 /* Relative positioning for the search container */
