@@ -73,9 +73,8 @@ In summary, these event listeners work together to toggle the visibility of the 
 
 2. **Placing Search Icon Inside Input Field:**
    - The `.search-icon` class is applied to the search icon.
-   - `padding-right: 4px;`: Adds some padding to the right of the icon to create space.
    - `position: absolute;`: Takes the icon out of the normal flow of the document and positions it relative to its nearest positioned ancestor, which is the element with `position: relative;` (`.navbar__search` in this case).
    - `top: 50%;`: Positions the top of the icon at 50% of the height of its containing element (`.navbar__search`), effectively centering it vertically.
    - `right: 10px;`: Positions the right edge of the icon 10 pixels from the right edge of its containing element.
    - `transform: translateY(-50%);`: Adjusts the vertical position of the icon by moving it up by 50% of its own height. This ensures perfect vertical centering within the `.navbar__search` container.
-   - `color: #999;`: Sets the color of the icon to a light gray color (#999).
+
