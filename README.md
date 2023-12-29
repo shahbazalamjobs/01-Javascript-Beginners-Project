@@ -10,6 +10,8 @@ Problems-Link: [https://github.com/john-smilga/javascript-basic-projects/tree/ma
 | 04-Navbar          | [https://shahbazalamjobs.github.io/Navbar/](https://shahbazalamjobs.github.io/Navbar/) |
 | 05-Sidebar         | [https://shahbazalamjobs.github.io/Responsive-Sidebar/](https://shahbazalamjobs.github.io/Responsive-Sidebar/) |
 | 08-Simple-Layout   | [https://shahbazalamjobs.github.io/Simple-Layout/](https://shahbazalamjobs.github.io/Simple-Layout/) |
-| 08-Project C       | [Project C](http://projectc.com) |
-| 08-Project C       | [Project C](http://projectc.com) |
-| 08-Project C       | [Project C](http://projectc.com) |
+| 09-Modal           | [https://shahbazalamjobs.github.io/Modal/](https://shahbazalamjobs.github.io/Modal/) |
+| 10-Project C       | [Project C](http://projectc.com) |
+| 11-Project C       | [Project C](http://projectc.com) |
+| 11-Project C       | [Project C](http://projectc.com) |
+| 11-Project C       | [Project C](http://projectc.com) |
