@@ -1,0 +1,95 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Beautiful Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav__list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav__item {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav__link {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-weight: bold;
+        }
+
+        .section {
+            flex: 1;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .section__title {
+            color: #2c3e50;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Your Beautiful Website</h1>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <h2 class="section__title">Welcome to Your Beautiful Website!</h2>
+        <p>This is a simple HTML and CSS layout example with enhanced styles.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Your Beautiful Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
