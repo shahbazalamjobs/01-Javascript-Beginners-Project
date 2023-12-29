@@ -1,19 +1,13 @@
 
+// index.js
+
 const modalButton = document.querySelector('.modal__btn');
 const modalCloseButton = document.querySelector('.modal__close-btn');
 const modalContainer = document.querySelector('.modal__container')
 
-modalButton.addEventListener('click', () => {
-    modalOpen();
-});
-
-modalCloseButton.addEventListener('click', () => {
-    modalClose();
-});
-
+modalButton.addEventListener('click', modalOpen);
+modalCloseButton.addEventListener('click', modalClose);
 window.addEventListener('click', (event) => {
-    // preventDefault();
-
     if (event.target == modalContainer) {
         modalClose();
     }
@@ -25,5 +19,4 @@ function modalOpen() {
 
 function modalClose() {
     modalContainer.style.display = "none";
-
 }
