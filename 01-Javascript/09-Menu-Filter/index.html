@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="title"> Our Menu </h1>
+        <!-- Add this button within the <body> tag -->
+    </header>
+    <div class="button__container">
+        <button class="btn search-btn fa fa-search"></button>
+        <button class="btn all-btn" onclick="filterMenu('all')"> All </button>
+        <button class="btn breakfast-btn" onclick="filterMenu('appetizer')">
+            Appetizer </button>
+        <button class="btn lunch-btn" onclick="filterMenu('main-course')"> Main
+            Course </button>
+        <button class="btn shakes-btn" onclick="filterMenu('dessert')"> Dessert
+        </button>
+    </div>
+    <div class="menu__container">
+        <!-- <div class="menu__item"></div> -->
+    </div>
+    <!-- Modal container -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
