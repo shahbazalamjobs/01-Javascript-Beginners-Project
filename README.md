@@ -12,6 +12,6 @@ Problems-Link: [https://github.com/john-smilga/javascript-basic-projects/tree/ma
 | 08-Simple-Layout   | [https://shahbazalamjobs.github.io/Simple-Layout/](https://shahbazalamjobs.github.io/Simple-Layout/) |
 | 09-Modal           | [https://shahbazalamjobs.github.io/Modal/](https://shahbazalamjobs.github.io/Modal/) |
 | 10-Accordion       | [https://shahbazalamjobs.github.io/Accordion/](https://shahbazalamjobs.github.io/Accordion/) |
-| 11-Project C       | [Project C](http://projectc.com) |
+| 11-Menu-Filter      | [https://shahbazalamjobs.github.io/Filter-Menu/](https://shahbazalamjobs.github.io/Filter-Menu/) |
 | 11-Project C       | [Project C](http://projectc.com) |
 | 11-Project C       | [Project C](http://projectc.com) |
